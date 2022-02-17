@@ -1,6 +1,3 @@
-from crypt import methods
-from email import message
-from turtle import st
 from urllib import request
 import json
 import ast
