@@ -26,11 +26,9 @@ def request_detail():
                 asignee = val_list[posn]
                 if(asignee== user_query):
                     print(item)
-                    data_set = {'Page': 'Art Detail', 'Message':f'Message for {item}'}
-                    json_dump = json.dumps(data_set)
-                    return json_dump
-
-        data_set = {'Page': 'Art Detail', 'Message':'No Detail Requested by the specific user'}
+                    return item
+        # data_set = {'Page': 'Art Detail', 'Message':'No Detail Requested by the specific user'}
+        data_set = {}
         json_dump = json.dumps(data_set)
         return json_dump    
 

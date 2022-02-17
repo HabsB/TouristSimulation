@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     consumer = KafkaConsumer(
         "messages",
-        bootstrap_servers=['localhost:9092'],
+        bootstrap_servers=['35.188.127.40:9092'],
         auto_offset_reset="earliest",
         group_id="consumer-group-a")
     print("starting Consumer")
