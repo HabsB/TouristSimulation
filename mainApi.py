@@ -33,7 +33,7 @@ def request_detail():
         return json_dump    
 
 if __name__ == '__main__':
-    app.run(host=35.188.127.40, port=7777)  
+    app.run(host="35.188.127.40", port=7777)  
     
 
     
