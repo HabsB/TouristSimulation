@@ -29,4 +29,4 @@ for tourist in range(TOURISTS):
     publishableDataObject["art"] = str(random.randint(1, ARTS))
     print(publishableDataObject)
     producer.send("messages", publishableDataObject) 
-    time.sleep(10)
+    time.sleep(30)
